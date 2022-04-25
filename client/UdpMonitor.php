@@ -1,10 +1,10 @@
 <?php
-namespace udptest\src\udpMonitor;
+namespace Udptest\Src;
 
 use Workerman\Connection\AsyncUdpConnection;
 use Workerman\Timer;
 
-class udpMonitor
+class UdpMonitor
 {
     private $path;
 

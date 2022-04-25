@@ -14,7 +14,5 @@
             "email": "tangjh@pvc123.com"
         }
     ],
-    "require": {
-        "php": ">=7.2"
-    }
+    "require": {}
 }

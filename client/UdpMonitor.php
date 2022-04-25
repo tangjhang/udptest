@@ -1,5 +1,5 @@
 <?php
-namespace Udptest\Src;
+namespace src;
 
 use Workerman\Connection\AsyncUdpConnection;
 use Workerman\Timer;

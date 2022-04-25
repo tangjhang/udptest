@@ -1,5 +1,5 @@
 <?php
-namespace src;
+namespace src\client;
 
 use Workerman\Connection\AsyncUdpConnection;
 use Workerman\Timer;

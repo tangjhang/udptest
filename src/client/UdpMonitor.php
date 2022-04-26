@@ -27,7 +27,7 @@ class UdpMonitor
 
     public function onWorkerStart()
     {
-        Timer::add(60, function () {
+        Timer::add(55, function () {
             $udp_connection = new AsyncUdpConnection($this->host . ':' . $this->port);
             $commandStr = shell_exec('php ' . $this->path . ' ' . $this->command);
             $data = json_encode(['data' => $commandStr, 'systemName' => $this->systemName]);
